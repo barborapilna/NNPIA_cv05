@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+<head th:replace="fragments/hlavicka::head"></head>
+<body>
+<h2>Pridej novy produkt</h2>
+<div th:replace="fragments/navigace::navbar"></div>
+<section>
+    <form action="#" th:action="@{/produkt-form-zpracuj}" th:object="${produkt}" method="post" enctype="multipart/form-data">
+        <input type="hidden" th:field="*{id}" />
+        <input type="text" th:field="*{nazev}" />
+        <textarea th:field="*{popis}"></textarea>
+        <input type="submit"/>
+    </form>
+</section>
+</body>
+</html>

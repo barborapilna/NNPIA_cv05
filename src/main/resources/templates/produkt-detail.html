@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/hlavicka::head"></head>
+<body>
+<h2>Detail Produktu</h2>
+<div th:replace="fragments/navigace::navbar"></div>
+<section>
+    <h3 th:text ="${produkt.nazev}"></h3>
+    <p th:text ="${produkt.popis}"></p>
+</section>
+</body>
+</html>

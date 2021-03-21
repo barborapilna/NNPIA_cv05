@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/hlavicka::head"></head>
+<body>
+<h2>Product list</h2>
+<div th:replace="fragments/navigace::navbar"></div>
+<section>
+    <div th:each="polozkaKosiku:${kosik.entrySet()}">
+        <h3 th:text ="${polozkaKosiku.getKey().getNazev()}"></h3>
+        <span th:text="${polozkaKosiku.getValue()}"></span>
+        <a th:href="@{'/kosik-remove/' + ${polozkaKosiku.getKey().getId()}}">-</a>
+        <a th:href="@{'/kosik-add/' + ${polozkaKosiku.getKey().getId()}}">+</a>
+    </div>
+</section>
+<section>
+    <a th:href="@{'objednat'}">Objednat</a>
+</section>
+</body>
+</html>

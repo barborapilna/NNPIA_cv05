@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/hlavicka::head"></head>
+<body>
+<h2>Nase Produkty</h2>
+<div th:replace="fragments/navigace::navbar"></div>
+<section class="produkt-list">
+    <div class="produkt" th:each="jedenProdukt:${produkty}">
+        <a th:href="@{/produkt-detail/{id} (id=${jedenProdukt.id})}" ><h3 th:text ="${jedenProdukt.nazev}"></h3></a>
+        <a class="pridej-do-kosiku-button" th:href="@{'/kosik-remove/' + ${jedenProdukt.getId()}}">-</a>
+        <a class="pridej-do-kosiku-button" th:href="@{'/kosik-add/' + ${jedenProdukt.getId()}}">+</a>
+    </div>
+</section>
+</body>
+</html>
