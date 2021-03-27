@@ -1,0 +1,4 @@
+cz/upce/eshop/dataFactory/ProduktTestDataFactory.java
+ cz.upce.eshop.dataFactory.ProduktTestDataFactory
+cz/upce/eshop/EshopApplicationTests.java
+ cz.upce.eshop.EshopApplicationTests
