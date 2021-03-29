@@ -1,5 +1,5 @@
-cz/upce/eshop/entity/Uzivatel.java
- cz.upce.eshop.entity.Uzivatel
+cz/upce/eshop/service/KosikServiceImpl.java
+ cz.upce.eshop.service.KosikServiceImpl
 cz/upce/eshop/EshopApplication.java
  cz.upce.eshop.EshopApplication
 cz/upce/eshop/dto/CrudProductDto.java
@@ -20,13 +20,13 @@ cz/upce/eshop/repository/KosikRepo.java
  cz.upce.eshop.repository.KosikRepo
 cz/upce/eshop/controller/ProduktController.java
  cz.upce.eshop.controller.ProduktController
-cz/upce/eshop/repository/UzivatelRepo.java
- cz.upce.eshop.repository.UzivatelRepo
-cz/upce/eshop/repository/ProduktRepo.java
- cz.upce.eshop.repository.ProduktRepo
-cz/upce/eshop/service/KosikServiceImpl.java
- cz.upce.eshop.service.KosikServiceImpl
-cz/upce/eshop/entity/Kosik.java
- cz.upce.eshop.entity.Kosik
 cz/upce/eshop/repository/ObjednavkaRepo.java
  cz.upce.eshop.repository.ObjednavkaRepo
+cz/upce/eshop/repository/ProduktRepo.java
+ cz.upce.eshop.repository.ProduktRepo
+cz/upce/eshop/repository/UzivatelRepo.java
+ cz.upce.eshop.repository.UzivatelRepo
+cz/upce/eshop/entity/Uzivatel.java
+ cz.upce.eshop.entity.Uzivatel
+cz/upce/eshop/entity/Kosik.java
+ cz.upce.eshop.entity.Kosik

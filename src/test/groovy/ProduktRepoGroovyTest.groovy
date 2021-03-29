@@ -1,3 +1,5 @@
+package cz.upce.eshop;
+
 import cz.upce.eshop.dataFactory.ProduktTestDataFactory;
 import cz.upce.eshop.entity.Produkt;
 import cz.upce.eshop.repository.ProduktRepo;
@@ -18,17 +20,19 @@ class ProduktRepoGroovyTest {
 
     @Autowired
     private ProduktRepo produktRepo;
+    
     @Autowired
     private ProduktTestDataFactory produktTestDataFactory;
 
     @Test
     void saveNakup() {
-        produktTestDataFactory.saveProdukt("MujProdukt");
-        List<Produkt> vsechnyProdukty = produktRepo.findAll();
-        Assertions.assertThat(vsechnyProdukty.size()).isEqualTo(1);
+        Produkt testProdukt = new Produkt(nazev: "MujProdukt")
+        produktTestDataFactory.saveProdukt(testProdukt);
+//        List<Produkt> vsechnyProdukty = produktRepo.findAll();
+//        Assertions.assertThat(vsechnyProdukty.size()).isEqualTo(1);
+
+        def nacteno = produktRepo.findById(testProdukt.getId()).get();
+        Assertions.assertThat(nacteno.getNazev()).isEqualTo("MujProdukt");
+        Assertions.assertThat(nacteno.getPopis()).isEqualTo("Testovaci popis");
     }
-
-
-}
-
 }

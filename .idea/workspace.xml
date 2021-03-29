@@ -2,15 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0609ebc7-3c3d-42be-8cef-af95a2e15fe7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/cz/upce/eshop/ProduktTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cz/upce/eshop/dataFactory/ProduktTestDataFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7d217cdb-c7be-4be5-b35e-8d8684db3530.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7d217cdb-c7be-4be5-b35e-8d8684db3530.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/cz/upce/eshop/entity/Uzivatel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/cz/upce/eshop/entity/Uzivatel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/cz/upce/eshop/dataFactory/ProduktTestDataFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/cz/upce/eshop/dataFactory/ProduktTestDataFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cz/upce/eshop/entity/Uzivatel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/upce/eshop/entity/Uzivatel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/groovy/ProduktRepoGroovyTest.groovy" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/groovy/ProduktRepoGroovyTest.groovy" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cz/upce/eshop/KosikTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cz/upce/eshop/KosikTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cz/upce/eshop/UzivatelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cz/upce/eshop/UzivatelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cz/upce/eshop/dataFactory/ProduktTestDataFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cz/upce/eshop/dataFactory/ProduktTestDataFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +61,35 @@
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="db_shop: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="zkouska" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="zkouska" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="zkouska" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="zkouska: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="zkouska" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="zkouska: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="uzivatele: table" type="285a2a93:MysqlImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="zkouska" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="zkouska: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="zbozi: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -138,6 +185,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -147,13 +195,93 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Gradle.ProduktRepoGroovyTest.saveNakup">
+  <component name="RunManager" selected="Gradle.UzivatelRepoGroovyTest.getUzivateleByEmail">
     <configuration name="ProduktRepoGroovyTest.saveNakup" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;ProduktRepoGroovyTest.saveNakup&quot;" />
+        <option name="scriptParameters" value="--tests &quot;cz.upce.eshop.ProduktRepoGroovyTest.saveNakup&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UzivatelRepoGroovyTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;cz.upce.eshop.UzivatelRepoGroovyTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UzivatelRepoGroovyTest.getUzivatele" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;cz.upce.eshop.UzivatelRepoGroovyTest.getUzivatele&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UzivatelRepoGroovyTest.getUzivateleByEmail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;cz.upce.eshop.UzivatelRepoGroovyTest.getUzivateleByEmail&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="UzivatelRepoGroovyTest.saveUzivatele" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;cz.upce.eshop.UzivatelRepoGroovyTest.saveUzivatele&quot; --stacktrace" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -177,9 +305,40 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.UzivatelRepoGroovyTest.getUzivateleByEmail" />
+        <item itemvalue="Gradle.UzivatelRepoGroovyTest.getUzivatele" />
+        <item itemvalue="Gradle.UzivatelRepoGroovyTest.saveUzivatele" />
+        <item itemvalue="Gradle.UzivatelRepoGroovyTest" />
         <item itemvalue="Gradle.ProduktRepoGroovyTest.saveNakup" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="zkouska: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="zkouska: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@1c4ef5fe" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="zkouska: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@195684e7" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -198,6 +357,8 @@
       <workItem from="1616183109671" duration="144000" />
       <workItem from="1616241487843" duration="11564000" />
       <workItem from="1616841535144" duration="1748000" />
+      <workItem from="1616864617202" duration="5394000" />
+      <workItem from="1617038327523" duration="5214000" />
     </task>
     <servers />
   </component>
@@ -209,10 +370,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="274" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1616254210587" />
-    <state x="552" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1616174851916">
+    <state x="552" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617042658062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1616174851916" />
+    <state x="393" y="43" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1616957758619" />
+    <state x="552" y="177" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1617042658062" />
     <state x="765" y="220" key="#com.intellij.ide.util.MemberChooser" timestamp="1616254890341">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -229,30 +391,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1616183211211" />
-    <state width="1876" height="342" key="GridCell.Tab.0.bottom" timestamp="1616349024308">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1876" height="457" key="GridCell.Tab.0.bottom" timestamp="1617043775807">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="342" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616349024308" />
-    <state width="1876" height="342" key="GridCell.Tab.0.bottom/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1616258238634" />
-    <state width="1322" height="252" key="GridCell.Tab.0.bottom/0.1080.1366.728/0.0.1920.1040@0.1080.1366.728" timestamp="1616174231011" />
-    <state width="1876" height="342" key="GridCell.Tab.0.center" timestamp="1616349024308">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1322" height="100" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616966332250" />
+    <state width="1876" height="457" key="GridCell.Tab.0.bottom/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1617043775807" />
+    <state width="1322" height="277" key="GridCell.Tab.0.bottom/0.1080.1366.728/0.0.1920.1040@0.1080.1366.728" timestamp="1616845142984" />
+    <state width="1876" height="457" key="GridCell.Tab.0.center" timestamp="1617043775807">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="342" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1616349024308" />
-    <state width="1876" height="342" key="GridCell.Tab.0.center/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1616258238633" />
-    <state width="1322" height="252" key="GridCell.Tab.0.center/0.1080.1366.728/0.0.1920.1040@0.1080.1366.728" timestamp="1616174231010" />
-    <state width="1876" height="342" key="GridCell.Tab.0.left" timestamp="1616349024308">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1322" height="100" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1616966332249" />
+    <state width="1876" height="457" key="GridCell.Tab.0.center/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1617043775807" />
+    <state width="1322" height="277" key="GridCell.Tab.0.center/0.1080.1366.728/0.0.1920.1040@0.1080.1366.728" timestamp="1616845142983" />
+    <state width="1876" height="457" key="GridCell.Tab.0.left" timestamp="1617043775807">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="342" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1616349024308" />
-    <state width="1876" height="342" key="GridCell.Tab.0.left/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1616258238633" />
-    <state width="1322" height="252" key="GridCell.Tab.0.left/0.1080.1366.728/0.0.1920.1040@0.1080.1366.728" timestamp="1616174231010" />
-    <state width="1876" height="342" key="GridCell.Tab.0.right" timestamp="1616349024308">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1322" height="100" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1616966332249" />
+    <state width="1876" height="457" key="GridCell.Tab.0.left/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1617043775807" />
+    <state width="1322" height="277" key="GridCell.Tab.0.left/0.1080.1366.728/0.0.1920.1040@0.1080.1366.728" timestamp="1616845142983" />
+    <state width="1876" height="457" key="GridCell.Tab.0.right" timestamp="1617043775807">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="342" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1616349024308" />
-    <state width="1876" height="342" key="GridCell.Tab.0.right/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1616258238633" />
-    <state width="1322" height="252" key="GridCell.Tab.0.right/0.1080.1366.728/0.0.1920.1040@0.1080.1366.728" timestamp="1616174231010" />
+    <state width="1322" height="100" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1616966332249" />
+    <state width="1876" height="457" key="GridCell.Tab.0.right/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1617043775807" />
+    <state width="1322" height="277" key="GridCell.Tab.0.right/0.1080.1366.728/0.0.1920.1040@0.1080.1366.728" timestamp="1616845142983" />
     <state width="1876" height="342" key="GridCell.Tab.1.bottom" timestamp="1616349024308">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -305,14 +467,24 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="336" y="85" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1616338407924" />
-    <state x="440" y="93" key="SettingsEditor" timestamp="1616175190809">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="313" y="0" key="SettingsEditor" timestamp="1616865018294">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="313" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1616865018294" />
     <state x="440" y="93" key="SettingsEditor/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1616175190809" />
-    <state x="818" y="265" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1616152322001">
+    <state x="853" y="409" width="326" height="238" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1617042499103">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="818" y="265" key="com.intellij.database.view.ui.DbObjectDialog/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1616152322001" />
+    <state x="853" y="409" width="326" height="238" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1617042499103" />
+    <state x="399" y="4" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1616959078110">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="399" y="4" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1616959078110" />
+    <state x="818" y="265" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1617042669833">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="582" y="186" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1366.728@0.0.1366.728" timestamp="1616958980301" />
+    <state x="818" y="265" key="com.intellij.database.view.ui.DbObjectDialog/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1617042669833" />
     <state x="413" y="1218" key="extract.method.dialog" timestamp="1616842062255">
       <screen x="0" y="1080" width="1366" height="728" />
     </state>

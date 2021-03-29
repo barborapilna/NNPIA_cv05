@@ -16,4 +16,10 @@ public class ProduktTestDataFactory {
         produkt.setNazev(nazevProduktu);
         produktRepo.save(produkt);
     }
+
+    public void saveProdukt(Produkt produkt) {
+        if (produkt.getNazev()==null) produkt.setNazev("Testovaci produkt");
+        if (produkt.getPopis()==null) produkt.setPopis("Testovaci popis");
+        produktRepo.save(produkt);
+    }
 }

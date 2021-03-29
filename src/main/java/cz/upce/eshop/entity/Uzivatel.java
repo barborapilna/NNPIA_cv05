@@ -1,25 +1,23 @@
 package cz.upce.eshop.entity;
 
 import javax.persistence.*;
-import java.util.Set;
 
 @Entity
 public class Uzivatel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @Column(length = 45, nullable = false)
+    @Column
     private String jmeno;
-    @Column(length = 45, nullable = false)
+    @Column
     private String prijmeni;
-    @Column(length = 100, nullable = false, unique = true)
+//    @Column(unique = true)
+    @Column
     private String email;
-    @Column(length = 100, nullable = false)
+    @Column
     private String heslo;
-    @Column(length = 100, nullable = false)
-    private String adresa;
-    @OneToMany(mappedBy = "id")
-    private Set<Kosik> kosik;
+//    @OneToMany(mappedBy = "id")
+//    private Set<Kosik> kosik;
 
     public void setId(Long id) {
         this.id = id;
@@ -61,15 +59,7 @@ public class Uzivatel {
         this.heslo = heslo;
     }
 
-    public String getAdresa() {
-        return adresa;
-    }
+//    public void setKosik(Set<Kosik> kosik) { this.kosik = kosik; }
 
-    public void setAdresa(String adresa) {
-        this.adresa = adresa;
-    }
-
-    public void setKosik(Set<Kosik> kosik) { this.kosik = kosik; }
-
-    public Set<Kosik> getKosik() { return kosik; }
+//    public Set<Kosik> getKosik() { return kosik; }
 }

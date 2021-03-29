@@ -1,4 +1,12 @@
+cz/upce/eshop/ProduktTest.java
+ cz.upce.eshop.ProduktTest
 cz/upce/eshop/dataFactory/ProduktTestDataFactory.java
  cz.upce.eshop.dataFactory.ProduktTestDataFactory
+cz/upce/eshop/KosikTest.java
+ cz.upce.eshop.KosikTest
 cz/upce/eshop/EshopApplicationTests.java
  cz.upce.eshop.EshopApplicationTests
+cz/upce/eshop/UzivatelTest.java
+ cz.upce.eshop.UzivatelTest
+cz/upce/eshop/dataFactory/UzivatelTestDataFactory.java
+ cz.upce.eshop.dataFactory.UzivatelTestDataFactory
