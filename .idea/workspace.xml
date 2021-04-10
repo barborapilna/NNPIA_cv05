@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0609ebc7-3c3d-42be-8cef-af95a2e15fe7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/7d217cdb-c7be-4be5-b35e-8d8684db3530.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7d217cdb-c7be-4be5-b35e-8d8684db3530.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
@@ -126,7 +123,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager" selected="Gradle.KosikTest.saveNakup">
     <configuration name="KosikTest.saveNakup" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
@@ -178,11 +175,25 @@
       <workItem from="1616181048239" duration="1794000" />
       <workItem from="1616183109671" duration="144000" />
       <workItem from="1616241487843" duration="11043000" />
+      <workItem from="1617983059871" duration="2240000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="274" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1616254210587">
@@ -201,14 +212,18 @@
       <screen x="0" y="1080" width="1366" height="728" />
     </state>
     <state x="261" y="1388" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.1080.1366.728/0.0.1920.1040@0.1080.1366.728" timestamp="1616174239251" />
+    <state x="756" y="378" width="407" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1617983898301">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="756" y="378" width="407" height="292" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1617983898301" />
     <state x="389" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1616253981913">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="389" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1616253981913" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1616183211211">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1617983116088">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1616183211211" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1617983116088" />
     <state width="1322" height="361" key="GridCell.Tab.0.bottom" timestamp="1616844409779">
       <screen x="0" y="1080" width="1366" height="728" />
     </state>
@@ -281,10 +296,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="336" y="85" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1616338407924" />
-    <state x="440" y="93" key="SettingsEditor" timestamp="1616175190809">
+    <state x="440" y="93" key="SettingsEditor" timestamp="1617983172036">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="440" y="93" key="SettingsEditor/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1616175190809" />
+    <state x="440" y="93" key="SettingsEditor/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1617983172036" />
     <state x="818" y="265" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1616152322001">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
