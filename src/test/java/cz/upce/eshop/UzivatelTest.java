@@ -1,7 +1,7 @@
 package cz.upce.eshop;
 
 import cz.upce.eshop.entity.Uzivatel;
-import cz.upce.eshop.repository.UzivatelRepo;
+import cz.upce.eshop.repository.UzivatelRepository;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
@@ -18,7 +18,7 @@ import java.util.List;
 public class UzivatelTest {
 
     @Autowired
-    private UzivatelRepo uzivatelRepo;
+    private UzivatelRepository uzivatelRepository;
 
     @Test
     void saveUzivatel() {
@@ -27,9 +27,8 @@ public class UzivatelTest {
         uzivatel.setPrijmeni("Novak");
         uzivatel.setEmail("karel.n@seznam.cz");
         uzivatel.setHeslo("heslo");
-        uzivatel.setAdresa("Listopadu 123");
-        uzivatelRepo.save(uzivatel);
-        List<Uzivatel> all = uzivatelRepo.findAll();
+        uzivatelRepository.save(uzivatel);
+        List<Uzivatel> all = uzivatelRepository.findAll();
         Assertions.assertTrue(all.size() == 1);
     }
 
@@ -40,26 +39,23 @@ public class UzivatelTest {
         uzivatel1.setPrijmeni("Novak");
         uzivatel1.setEmail("karel.n@seznam.cz");
         uzivatel1.setHeslo("heslo");
-        uzivatel1.setAdresa("Listopadu 123");
-        uzivatelRepo.save(uzivatel1);
+        uzivatelRepository.save(uzivatel1);
 
         Uzivatel uzivatel2 = new Uzivatel();
         uzivatel2.setJmeno("Petr");
         uzivatel2.setPrijmeni("Smith");
         uzivatel2.setEmail("petr.s@seznam.cz");
         uzivatel2.setHeslo("mojeHeslo");
-        uzivatel2.setAdresa("Brezova 13");
-        uzivatelRepo.save(uzivatel2);
+        uzivatelRepository.save(uzivatel2);
 
         Uzivatel uzivatel3 = new Uzivatel();
         uzivatel3.setJmeno("Lidie");
         uzivatel3.setPrijmeni("Klidna");
         uzivatel3.setEmail("lidie.k@seznam.cz");
         uzivatel3.setHeslo("heslojeheslo");
-        uzivatel3.setAdresa("Bytova 123");
-        uzivatelRepo.save(uzivatel3);
+        uzivatelRepository.save(uzivatel3);
 
-        Uzivatel result = uzivatelRepo.getUzivatelByEmail("petr.s@seznam.cz");
+        Uzivatel result = uzivatelRepository.getUzivatelByEmail("petr.s@seznam.cz");
         Assertions.assertTrue(result.getJmeno() == "Petr");
     }
 
@@ -71,7 +67,7 @@ public class UzivatelTest {
 //        uzivatel1.setEmail("karel.n@seznam.cz");
 //        uzivatel1.setHeslo("heslo");
 //        uzivatel1.setAdresa("Listopadu 123");
-//        uzivatelRepo.save(uzivatel1);
+//        uzivatelRepository.save(uzivatel1);
 //
 //        Uzivatel uzivatel2 = new Uzivatel();
 //        uzivatel2.setJmeno("Petr");
@@ -79,7 +75,7 @@ public class UzivatelTest {
 //        uzivatel2.setEmail("petr.s@seznam.cz");
 //        uzivatel2.setHeslo("mojeHeslo");
 //        uzivatel2.setAdresa("Brezova 13");
-//        uzivatelRepo.save(uzivatel2);
+//        uzivatelRepository.save(uzivatel2);
 //
 //        Uzivatel uzivatel3 = new Uzivatel();
 //        uzivatel3.setJmeno("Lidie");
@@ -87,10 +83,10 @@ public class UzivatelTest {
 //        uzivatel3.setEmail("lidie.k@seznam.cz");
 //        uzivatel3.setHeslo("heslojeheslo");
 //        uzivatel3.setAdresa("Bytova 123");
-//        uzivatelRepo.save(uzivatel3);
+//        uzivatelRepository.save(uzivatel3);
 //
-//        Uzivatel result = uzivatelRepo.getUzivatelByEmail("petr.s@seznam.cz");
-//        uzivatelRepo.removeUzivatelById(result.getId());
-//        Assertions.assertTrue(uzivatelRepo.findAll().size() == 2);
+//        Uzivatel result = uzivatelRepository.getUzivatelByEmail("petr.s@seznam.cz");
+//        uzivatelRepository.removeUzivatelById(result.getId());
+//        Assertions.assertTrue(uzivatelRepository.findAll().size() == 2);
 //    }
 }

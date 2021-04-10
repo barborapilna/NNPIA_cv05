@@ -1,20 +1,9 @@
 package cz.upce.eshop;
 
-import cz.upce.eshop.entity.Kosik;
-import cz.upce.eshop.entity.Produkt;
-import cz.upce.eshop.entity.Uzivatel;
-import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
-import cz.upce.eshop.repository.KosikRepo;
-import cz.upce.eshop.repository.ProduktRepo;
-import cz.upce.eshop.repository.UzivatelRepo;
 import org.springframework.test.context.junit4.SpringRunner;
-
-import java.util.List;
 
 @RunWith(SpringRunner.class)
 @DataJpaTest
@@ -24,9 +13,9 @@ public class KosikTest {
 //    @Autowired
 //    private KosikRepo kosikRepo;
 //    @Autowired
-//    private ProduktRepo produktRepo;
+//    private ProduktRepository produktRepo;
 //    @Autowired
-//    private UzivatelRepo uzivatelRepo;
+//    private UzivatelRepository uzivatelRepo;
 //
 //    @Test
 //    void saveNakup() {

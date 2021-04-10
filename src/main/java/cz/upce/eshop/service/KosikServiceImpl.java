@@ -6,7 +6,7 @@ import cz.upce.eshop.entity.Produkt;
 import cz.upce.eshop.entity.StavObjednavky;
 import cz.upce.eshop.repository.KosikRepo;
 import cz.upce.eshop.repository.ObjednavkaRepo;
-import cz.upce.eshop.repository.ProduktRepo;
+import cz.upce.eshop.repository.ProduktRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.web.context.annotation.SessionScope;
 
@@ -18,12 +18,12 @@ import java.util.NoSuchElementException;
 @SessionScope
 public class KosikServiceImpl implements KosikService {
     private Map<Produkt, Integer> kosik;
-    private final ProduktRepo produktRepo;
+    private final ProduktRepository produktRepository;
     private final ObjednavkaRepo objednavkaRepo;
     private final KosikRepo kosikRepo;
 
-    public KosikServiceImpl(ProduktRepo produktRepo, ObjednavkaRepo objednavkaRepo, KosikRepo kosikRepo) {
-        this.produktRepo = produktRepo;
+    public KosikServiceImpl(ProduktRepository produktRepository, ObjednavkaRepo objednavkaRepo, KosikRepo kosikRepo) {
+        this.produktRepository = produktRepository;
         this.objednavkaRepo = objednavkaRepo;
         this.kosikRepo = kosikRepo;
         kosik = new HashMap<>();
@@ -32,7 +32,7 @@ public class KosikServiceImpl implements KosikService {
 
     @Override
     public void pridej(Long id) {
-        Produkt produkt = produktRepo.findById(id).orElseThrow(NoSuchElementException::new);
+        Produkt produkt = produktRepository.findById(id).orElseThrow(NoSuchElementException::new);
         if (kosik.containsKey(produkt)) {
             kosik.replace(produkt, kosik.get(produkt) + 1);
         } else {
@@ -42,7 +42,7 @@ public class KosikServiceImpl implements KosikService {
 
     @Override
     public void smaz(Long id) {
-        Produkt produkt = produktRepo.findById(id).orElseThrow(NoSuchElementException::new);
+        Produkt produkt = produktRepository.findById(id).orElseThrow(NoSuchElementException::new);
         if (kosik.containsKey(produkt)) {
             if (kosik.get(produkt) > 1) {
                 kosik.replace(produkt, kosik.get(produkt) - 1);

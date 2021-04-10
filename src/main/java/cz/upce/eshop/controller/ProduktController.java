@@ -2,7 +2,7 @@ package cz.upce.eshop.controller;
 
 import cz.upce.eshop.dto.CrudProductDto;
 import cz.upce.eshop.entity.Produkt;
-import cz.upce.eshop.repository.ProduktRepo;
+import cz.upce.eshop.repository.ProduktRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 public class ProduktController {
 
     @Autowired
-    private ProduktRepo produktRepo;
+    private ProduktRepository produktRepository;
 
     @ExceptionHandler(RuntimeException.class)
     public String handleException() {
@@ -24,20 +24,20 @@ public class ProduktController {
 
     @GetMapping("/")
     public String zobrazProdukty(Model model) {
-        model.addAttribute("produkty", produktRepo.findAll());
+        model.addAttribute("produkty", produktRepository.findAll());
         return "produkt-list";
     }
 
     @GetMapping("/produkt-detail/{id}")
     public String zobrazDetailProduktu(@PathVariable(required = false) Long id, Model model) {
-        model.addAttribute("produkt", produktRepo.findById(id).get());
+        model.addAttribute("produkt", produktRepository.findById(id).get());
         return "produkt-detail";
     }
 
     @GetMapping(value = {"/produkt-form", "/produkt-form/{id}"})
     public String zobrazProduktForm(@PathVariable(required = false) Long id, Model model) {
         if (id != null) {
-            Produkt zobrazenyProdukt = produktRepo.findById(id).orElse(new Produkt());
+            Produkt zobrazenyProdukt = produktRepository.findById(id).orElse(new Produkt());
             CrudProductDto dto = new CrudProductDto();
             dto.setId(zobrazenyProdukt.getId());
             dto.setNazev(zobrazenyProdukt.getNazev());
@@ -55,7 +55,7 @@ public class ProduktController {
         produkt.setId(addOrEditProductDto.getId());
         produkt.setNazev(addOrEditProductDto.getNazev());
         produkt.setPopis(addOrEditProductDto.getPopis());
-        produktRepo.save(produkt);
+        produktRepository.save(produkt);
         return "redirect:/";
     }
 }

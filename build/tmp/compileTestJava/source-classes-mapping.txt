@@ -1,3 +1,5 @@
+cz/upce/eshop/dataFactory/Creator.java
+ cz.upce.eshop.dataFactory.Creator
 cz/upce/eshop/UzivatelTest.java
  cz.upce.eshop.UzivatelTest
 cz/upce/eshop/EshopApplicationTests.java
