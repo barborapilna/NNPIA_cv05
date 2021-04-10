@@ -6,3 +6,5 @@ cz/upce/eshop/EshopApplicationTests.java
  cz.upce.eshop.EshopApplicationTests
 cz/upce/eshop/KosikTest.java
  cz.upce.eshop.KosikTest
+cz/upce/eshop/ui/TestImplementation.java
+ cz.upce.eshop.ui.TestImplementation

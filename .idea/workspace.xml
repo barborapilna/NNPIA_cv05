@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0609ebc7-3c3d-42be-8cef-af95a2e15fe7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/cz/upce/eshop/ProduktTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/cz/upce/eshop/dataFactory/ProduktTestDataFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/test/cz/upce/eshop/dataFactory/UzivatelTestDataFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/groovy/ProduktRepositoryGroovyTest.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/groovy/UzivatelRepositoryGroovyTest.groovy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cz/upce/eshop/ProduktTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cz/upce/eshop/dataFactory/ProduktTestDataFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cz/upce/eshop/dataFactory/UzivatelTestDataFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
@@ -25,33 +15,16 @@
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7d217cdb-c7be-4be5-b35e-8d8684db3530.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7d217cdb-c7be-4be5-b35e-8d8684db3530.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/cz/upce/eshop/controller/ProduktController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/cz/upce/eshop/controller/ProduktController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/cz/upce/eshop/entity/Uzivatel.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/cz/upce/eshop/entity/Uzivatel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/cz/upce/eshop/repository/ProduktRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/cz/upce/eshop/repository/UzivatelRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/cz/upce/eshop/service/KosikServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/cz/upce/eshop/service/KosikServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/cz/upce/eshop/KosikTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/cz/upce/eshop/KosikTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/cz/upce/eshop/UzivatelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/cz/upce/eshop/UzivatelTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/cz.upce.eshop.KosikTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/cz.upce.eshop.UzivatelRepositoryGroovyTest.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/cz.upce.eshop.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/cz.upce.eshop.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-cz.upce.eshop.KosikTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/cz.upce.eshop.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-cz.upce.eshop.UzivatelRepositoryGroovyTest.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cz/upce/eshop/controller/ProduktController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/upce/eshop/controller/ProduktController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cz/upce/eshop/entity/Uzivatel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/upce/eshop/entity/Uzivatel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cz/upce/eshop/repository/ProduktRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/upce/eshop/repository/ProduktRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cz/upce/eshop/repository/UzivatelRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/upce/eshop/repository/UzivatelRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cz/upce/eshop/service/KosikServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cz/upce/eshop/service/KosikServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cz/upce/eshop/KosikTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cz/upce/eshop/KosikTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cz/upce/eshop/UzivatelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cz/upce/eshop/UzivatelTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -211,20 +184,25 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Gradle.UzivatelRepositoryGroovyTest.saveUzivatele">
-    <configuration name="ProduktRepoGroovyTest.saveNakup" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Desktop\Navazujici\2 semestr\Internetove aplikace\muj eshop\src\test\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.TestImplementation.verifyGitHubTitle">
+    <configuration name="ProduktRepositoryGroovyTest.saveNakup" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;cz.upce.eshop.ProduktRepoGroovyTest.saveNakup&quot;" />
+        <option name="scriptParameters" value="--tests &quot;cz.upce.eshop.ProduktRepositoryGroovyTest.saveNakup&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -239,12 +217,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ProduktRepositoryGroovyTest.saveNakup" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestImplementation.verifyGitHubTitle" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;cz.upce.eshop.ProduktRepositoryGroovyTest.saveNakup&quot;" />
+        <option name="scriptParameters" value="--tests &quot;cz.upce.eshop.ui.TestImplementation.verifyGitHubTitle&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -328,11 +306,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TestImplementation.verifyGitHubTitle" />
         <item itemvalue="Gradle.UzivatelRepositoryGroovyTest.saveUzivatele" />
         <item itemvalue="Gradle.UzivatelRepositoryGroovyTest.getUzivateleByEmail" />
         <item itemvalue="Gradle.ProduktRepositoryGroovyTest.saveNakup" />
         <item itemvalue="Gradle.UzivatelRepoGroovyTest.saveUzivatele" />
-        <item itemvalue="Gradle.ProduktRepoGroovyTest.saveNakup" />
       </list>
     </recent_temporary>
   </component>
@@ -415,30 +393,30 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1616183211211" />
-    <state width="1322" height="273" key="GridCell.Tab.0.bottom" timestamp="1618072447757">
+    <state width="1322" height="382" key="GridCell.Tab.0.bottom" timestamp="1618074334246">
       <screen x="0" y="1080" width="1366" height="728" />
     </state>
     <state width="1322" height="100" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616966332250" />
     <state width="1876" height="457" key="GridCell.Tab.0.bottom/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1617043775807" />
-    <state width="1322" height="273" key="GridCell.Tab.0.bottom/0.1080.1366.728/0.0.1920.1040@0.1080.1366.728" timestamp="1618072447757" />
-    <state width="1322" height="273" key="GridCell.Tab.0.center" timestamp="1618072447756">
+    <state width="1322" height="382" key="GridCell.Tab.0.bottom/0.1080.1366.728/0.0.1920.1040@0.1080.1366.728" timestamp="1618074334246" />
+    <state width="1322" height="382" key="GridCell.Tab.0.center" timestamp="1618074334246">
       <screen x="0" y="1080" width="1366" height="728" />
     </state>
     <state width="1322" height="100" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1616966332249" />
     <state width="1876" height="457" key="GridCell.Tab.0.center/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1617043775807" />
-    <state width="1322" height="273" key="GridCell.Tab.0.center/0.1080.1366.728/0.0.1920.1040@0.1080.1366.728" timestamp="1618072447756" />
-    <state width="1322" height="273" key="GridCell.Tab.0.left" timestamp="1618072447756">
+    <state width="1322" height="382" key="GridCell.Tab.0.center/0.1080.1366.728/0.0.1920.1040@0.1080.1366.728" timestamp="1618074334245" />
+    <state width="1322" height="382" key="GridCell.Tab.0.left" timestamp="1618074334245">
       <screen x="0" y="1080" width="1366" height="728" />
     </state>
     <state width="1322" height="100" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1616966332249" />
     <state width="1876" height="457" key="GridCell.Tab.0.left/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1617043775807" />
-    <state width="1322" height="273" key="GridCell.Tab.0.left/0.1080.1366.728/0.0.1920.1040@0.1080.1366.728" timestamp="1618072447756" />
-    <state width="1322" height="273" key="GridCell.Tab.0.right" timestamp="1618072447757">
+    <state width="1322" height="382" key="GridCell.Tab.0.left/0.1080.1366.728/0.0.1920.1040@0.1080.1366.728" timestamp="1618074334245" />
+    <state width="1322" height="382" key="GridCell.Tab.0.right" timestamp="1618074334246">
       <screen x="0" y="1080" width="1366" height="728" />
     </state>
     <state width="1322" height="100" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1616966332249" />
     <state width="1876" height="457" key="GridCell.Tab.0.right/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1617043775807" />
-    <state width="1322" height="273" key="GridCell.Tab.0.right/0.1080.1366.728/0.0.1920.1040@0.1080.1366.728" timestamp="1618072447757" />
+    <state width="1322" height="382" key="GridCell.Tab.0.right/0.1080.1366.728/0.0.1920.1040@0.1080.1366.728" timestamp="1618074334246" />
     <state width="1876" height="342" key="GridCell.Tab.1.bottom" timestamp="1616349024308">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

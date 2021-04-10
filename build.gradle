@@ -21,6 +21,7 @@ dependencies {
     runtimeOnly 'mysql:mysql-connector-java'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     testImplementation 'org.codehaus.groovy:groovy'
+    testImplementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
     implementation 'junit:junit:4.12'
     implementation 'junit:junit:4.12'
     implementation 'junit:junit:4.12'
