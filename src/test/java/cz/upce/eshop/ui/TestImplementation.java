@@ -1,11 +1,19 @@
 package cz.upce.eshop.ui;
 
-import org.junit.Test;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
+import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
+import org.springframework.test.context.junit4.SpringRunner;
+
+import java.io.UnsupportedEncodingException;
+import java.net.URL;
+import java.net.URLDecoder;
 
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.MatcherAssert.assertThat;
@@ -16,8 +24,14 @@ public class TestImplementation {
 
     @BeforeAll
     public static void setupWebdriverChromeDriver() {
-        String chromeDriverPath = TestImplementation.class.getResource("/chromedriver.exe").getFile();
-        System.setProperty("webdriver.chrome.driver", chromeDriverPath);
+
+        String path = TestImplementation.class.getResource("/chromedriver.exe").getFile();
+        try {
+            String chromeDriverPath = URLDecoder.decode(path, "UTF-8");
+            System.setProperty("webdriver.chrome.driver", chromeDriverPath);
+        } catch (UnsupportedEncodingException e) {
+
+        }
     }
 
     @BeforeEach

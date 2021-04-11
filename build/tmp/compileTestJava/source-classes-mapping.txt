@@ -8,3 +8,5 @@ cz/upce/eshop/KosikTest.java
  cz.upce.eshop.KosikTest
 cz/upce/eshop/ui/TestImplementation.java
  cz.upce.eshop.ui.TestImplementation
+cz/upce/eshop/ui/ProduktUITest.java
+ cz.upce.eshop.ui.ProduktUITest
