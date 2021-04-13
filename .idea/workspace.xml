@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0609ebc7-3c3d-42be-8cef-af95a2e15fe7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/cz/upce/eshop/ui/TestImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/cz/upce/eshop/ui/TestImplementation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileTestJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cz/upce/eshop/ui/TestImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cz/upce/eshop/ui/TestImplementation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,31 +39,6 @@
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="zkouska" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="zkouska" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="zkouska" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="zkouska: schema" type="76f4a085:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="zkouska" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="zkouska: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="uzivatele: table" type="285a2a93:MysqlImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="zkouska" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="zkouska: schema" type="76f4a085:MysqlImplModel$Schema" />
-        <item name="zbozi: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -192,13 +152,33 @@
       <recent name="C:\Users\admin\Desktop\Navazujici\2 semestr\Internetove aplikace\muj eshop\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ProduktUITest.produktyList">
+  <component name="RunManager" selected="Gradle.ProduktUITest.produktGet">
     <configuration name="ProduktUITest.addOneProductTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;cz.upce.eshop.ui.ProduktUITest.addOneProductTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ProduktUITest.produktGet" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;ui.ProduktUITest.produktGet&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -273,26 +253,6 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="UzivatelRepositoryGroovyTest.saveUzivatele" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;cz.upce.eshop.UzivatelRepositoryGroovyTest.saveUzivatele&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
     <configuration name="EshopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eshop.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cz.upce.eshop.EshopApplication" />
@@ -302,11 +262,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ProduktUITest.produktGet" />
         <item itemvalue="Gradle.ProduktUITest.produktyList" />
         <item itemvalue="Gradle.ProduktUITest.addOneProductTest" />
         <item itemvalue="Gradle.ProduktUITest.verifyGitHubTitle" />
         <item itemvalue="Gradle.TestImplementation.verifyGitHubTitle" />
-        <item itemvalue="Gradle.UzivatelRepositoryGroovyTest.saveUzivatele" />
       </list>
     </recent_temporary>
   </component>
@@ -356,6 +316,8 @@
       <workItem from="1616841535144" duration="1748000" />
       <workItem from="1616864617202" duration="5394000" />
       <workItem from="1617038327523" duration="5214000" />
+      <workItem from="1618240717380" duration="608000" />
+      <workItem from="1618323320779" duration="444000" />
     </task>
     <servers />
   </component>
@@ -397,76 +359,76 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="274" key="FileChooserDialogImpl/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1616183211211" />
-    <state width="1322" height="295" key="GridCell.Tab.0.bottom" timestamp="1618133330049">
-      <screen x="0" y="1080" width="1366" height="728" />
+    <state width="1876" height="429" key="GridCell.Tab.0.bottom" timestamp="1618323967162">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1322" height="100" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616966332250" />
-    <state width="1876" height="342" key="GridCell.Tab.0.bottom/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1618078722826" />
+    <state width="1322" height="342" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1618167781090" />
+    <state width="1876" height="429" key="GridCell.Tab.0.bottom/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1618323967162" />
     <state width="1322" height="295" key="GridCell.Tab.0.bottom/0.1080.1366.728/0.0.1920.1040@0.1080.1366.728" timestamp="1618133330049" />
-    <state width="1322" height="295" key="GridCell.Tab.0.center" timestamp="1618133330049">
-      <screen x="0" y="1080" width="1366" height="728" />
+    <state width="1876" height="429" key="GridCell.Tab.0.center" timestamp="1618323967162">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1322" height="100" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1616966332249" />
-    <state width="1876" height="342" key="GridCell.Tab.0.center/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1618078722825" />
+    <state width="1322" height="342" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1618167781090" />
+    <state width="1876" height="429" key="GridCell.Tab.0.center/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1618323967162" />
     <state width="1322" height="295" key="GridCell.Tab.0.center/0.1080.1366.728/0.0.1920.1040@0.1080.1366.728" timestamp="1618133330049" />
-    <state width="1322" height="295" key="GridCell.Tab.0.left" timestamp="1618133330049">
-      <screen x="0" y="1080" width="1366" height="728" />
+    <state width="1876" height="429" key="GridCell.Tab.0.left" timestamp="1618323967162">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1322" height="100" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1616966332249" />
-    <state width="1876" height="342" key="GridCell.Tab.0.left/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1618078722825" />
+    <state width="1322" height="342" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1618167781090" />
+    <state width="1876" height="429" key="GridCell.Tab.0.left/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1618323967162" />
     <state width="1322" height="295" key="GridCell.Tab.0.left/0.1080.1366.728/0.0.1920.1040@0.1080.1366.728" timestamp="1618133330049" />
-    <state width="1322" height="295" key="GridCell.Tab.0.right" timestamp="1618133330049">
-      <screen x="0" y="1080" width="1366" height="728" />
+    <state width="1876" height="429" key="GridCell.Tab.0.right" timestamp="1618323967162">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1322" height="100" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1616966332249" />
-    <state width="1876" height="342" key="GridCell.Tab.0.right/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1618078722825" />
+    <state width="1322" height="342" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1618167781090" />
+    <state width="1876" height="429" key="GridCell.Tab.0.right/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1618323967162" />
     <state width="1322" height="295" key="GridCell.Tab.0.right/0.1080.1366.728/0.0.1920.1040@0.1080.1366.728" timestamp="1618133330049" />
-    <state width="1322" height="342" key="GridCell.Tab.1.bottom" timestamp="1618130920771">
-      <screen x="0" y="1080" width="1366" height="728" />
+    <state width="1876" height="429" key="GridCell.Tab.1.bottom" timestamp="1618323967162">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="342" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616349024308" />
-    <state width="1876" height="342" key="GridCell.Tab.1.bottom/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1618078722625" />
+    <state width="1322" height="342" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1618167781095" />
+    <state width="1876" height="429" key="GridCell.Tab.1.bottom/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1618323967162" />
     <state width="1322" height="342" key="GridCell.Tab.1.bottom/0.1080.1366.728/0.0.1920.1040@0.1080.1366.728" timestamp="1618130920771" />
-    <state width="1322" height="342" key="GridCell.Tab.1.center" timestamp="1618130920771">
-      <screen x="0" y="1080" width="1366" height="728" />
+    <state width="1876" height="429" key="GridCell.Tab.1.center" timestamp="1618323967162">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="342" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1616349024308" />
-    <state width="1876" height="342" key="GridCell.Tab.1.center/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1618078722625" />
+    <state width="1322" height="342" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1618167781095" />
+    <state width="1876" height="429" key="GridCell.Tab.1.center/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1618323967162" />
     <state width="1322" height="342" key="GridCell.Tab.1.center/0.1080.1366.728/0.0.1920.1040@0.1080.1366.728" timestamp="1618130920771" />
-    <state width="1322" height="342" key="GridCell.Tab.1.left" timestamp="1618130920771">
-      <screen x="0" y="1080" width="1366" height="728" />
+    <state width="1876" height="429" key="GridCell.Tab.1.left" timestamp="1618323967162">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="342" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1616349024308" />
-    <state width="1876" height="342" key="GridCell.Tab.1.left/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1618078722625" />
+    <state width="1322" height="342" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1618167781090" />
+    <state width="1876" height="429" key="GridCell.Tab.1.left/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1618323967162" />
     <state width="1322" height="342" key="GridCell.Tab.1.left/0.1080.1366.728/0.0.1920.1040@0.1080.1366.728" timestamp="1618130920771" />
-    <state width="1322" height="342" key="GridCell.Tab.1.right" timestamp="1618130920771">
-      <screen x="0" y="1080" width="1366" height="728" />
+    <state width="1876" height="429" key="GridCell.Tab.1.right" timestamp="1618323967162">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="342" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1616349024308" />
-    <state width="1876" height="342" key="GridCell.Tab.1.right/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1618078722625" />
+    <state width="1322" height="342" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1618167781095" />
+    <state width="1876" height="429" key="GridCell.Tab.1.right/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1618323967162" />
     <state width="1322" height="342" key="GridCell.Tab.1.right/0.1080.1366.728/0.0.1920.1040@0.1080.1366.728" timestamp="1618130920771" />
-    <state width="1322" height="342" key="GridCell.Tab.2.bottom" timestamp="1618130920771">
-      <screen x="0" y="1080" width="1366" height="728" />
+    <state width="1322" height="342" key="GridCell.Tab.2.bottom" timestamp="1618167781090">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1876" height="342" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1616349024309" />
+    <state width="1322" height="342" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1618167781090" />
     <state width="1876" height="342" key="GridCell.Tab.2.bottom/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1616258238635" />
     <state width="1322" height="342" key="GridCell.Tab.2.bottom/0.1080.1366.728/0.0.1920.1040@0.1080.1366.728" timestamp="1618130920771" />
-    <state width="1322" height="342" key="GridCell.Tab.2.center" timestamp="1618130920771">
-      <screen x="0" y="1080" width="1366" height="728" />
+    <state width="1322" height="342" key="GridCell.Tab.2.center" timestamp="1618167781090">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1876" height="342" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1616349024309" />
+    <state width="1322" height="342" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1618167781090" />
     <state width="1876" height="342" key="GridCell.Tab.2.center/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1616258238634" />
     <state width="1322" height="342" key="GridCell.Tab.2.center/0.1080.1366.728/0.0.1920.1040@0.1080.1366.728" timestamp="1618130920771" />
-    <state width="1322" height="342" key="GridCell.Tab.2.left" timestamp="1618130920771">
-      <screen x="0" y="1080" width="1366" height="728" />
+    <state width="1322" height="342" key="GridCell.Tab.2.left" timestamp="1618167781090">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1876" height="342" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1616349024309" />
+    <state width="1322" height="342" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1618167781090" />
     <state width="1876" height="342" key="GridCell.Tab.2.left/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1616258238634" />
     <state width="1322" height="342" key="GridCell.Tab.2.left/0.1080.1366.728/0.0.1920.1040@0.1080.1366.728" timestamp="1618130920771" />
-    <state width="1322" height="342" key="GridCell.Tab.2.right" timestamp="1618130920771">
-      <screen x="0" y="1080" width="1366" height="728" />
+    <state width="1322" height="342" key="GridCell.Tab.2.right" timestamp="1618167781090">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1876" height="342" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1616349024309" />
+    <state width="1322" height="342" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1618167781090" />
     <state width="1876" height="342" key="GridCell.Tab.2.right/0.1080.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1616258238635" />
     <state width="1322" height="342" key="GridCell.Tab.2.right/0.1080.1366.728/0.0.1920.1040@0.1080.1366.728" timestamp="1618130920771" />
     <state width="267" height="457" key="HiddenNamespacesPopup" timestamp="1616152337293">

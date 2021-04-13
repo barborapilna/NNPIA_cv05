@@ -55,8 +55,14 @@ public class ProduktUITest {
     }
 
     @Test
-    public void produktyList() {
+    public void produktGet() {
+        creator.save(new Produkt(nazev: "testProdukt"));
+        driver.get("http://localhost:8080/");
+        Assert.assertEquals(1, driver.findElements(By.xpath("//h3[text()='testProdukt']")).size());
+    }
 
+    @Test
+    public void produktyList() {
         creator.saveEntities(
                 new Produkt(nazev: "produkt1"),
                 new Produkt(nazev: "produkt2"),
